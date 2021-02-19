@@ -1,11 +1,11 @@
 {
-    "name": "nango/swoft-tracker",
+    "name": "costalong/tracker",
     "description": "swoft 日志链路追踪库",
     "type": "library",
     "authors": [
         {
-            "name": "nango",
-            "email": "553212320@qq.com"
+            "name": "costalong",
+            "email": "costa9293@gmail.com"
         }
     ],
     "keywords": ["swoft", "swoft trace", "traceid"],

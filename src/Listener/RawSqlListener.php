@@ -39,8 +39,6 @@ class RawSqlListener implements EventHandlerInterface
 
         $rawSql = $connection->getRawSql($querySql, $bindings);
 
-        $sql = context()->get('sql', []);
-        $sql[] = $rawSql;
-        context()->set('sql', $sql);
+		 output()->info($rawSql);
     }
 }
